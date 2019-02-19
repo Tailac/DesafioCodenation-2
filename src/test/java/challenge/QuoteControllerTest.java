@@ -42,7 +42,6 @@ public class QuoteControllerTest {
 	@Test
 	public void getQuoteByActor() throws Exception {
 		String actor = "ACTOR_TEST";
-		
 		Quote quote = new Quote();
 		quote.setId(1234);
 		quote.setActor(actor);

@@ -11,12 +11,13 @@ public class QuoteServiceImpl implements QuoteService {
 
 	@Override
 	public Quote getQuote() {
-		return null;
+		return repository.getQuoteRandom();
 	}
 
 	@Override
 	public Quote getQuoteByActor(String actor) {
-		return null;
+		return repository.getQuoteByActor(actor);
+
 	}
 
 }
